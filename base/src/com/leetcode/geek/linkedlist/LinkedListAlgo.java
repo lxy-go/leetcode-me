@@ -1,4 +1,4 @@
-package com.leetcode.item.linkedlist;
+package com.leetcode.geek.linkedlist;
 
 import com.leetcode.base.Node;
 
