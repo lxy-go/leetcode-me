@@ -31,6 +31,7 @@ public class Node {
             this.next.print();
         }else {
             System.out.print("null");
+            System.out.println();
         }
     }
 }
