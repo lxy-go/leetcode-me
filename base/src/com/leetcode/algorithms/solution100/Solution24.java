@@ -13,14 +13,19 @@ public class Solution24 {
 
     private static Node swapPairs(Node head){
 
-        if (head == null || head.next ==null){
-            return head;
+        Node pre = new Node(0);
+        pre.next = head;
+        Node temp = pre;
+        while(temp.next != null && temp.next.next != null){
+            Node start = temp.next;
+            Node end = temp.next.next;
+            temp.next = end;
+            start.next = end.next;
+            end.next = start;
+            temp = start;
         }
+        return pre.next;
 
-        Node next = head.next;
-        head.next = swapPairs(next.next);
-        next.next = head;
-        return next;
     }
 
     public static void main(String[] args) {
