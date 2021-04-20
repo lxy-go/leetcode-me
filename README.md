@@ -12,6 +12,7 @@ This is leetcode practice
 
 ## 201-300
 - Solution206: [链表反转](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+- Solution234: [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)
 
 ## 400-500
 
