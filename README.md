@@ -18,3 +18,7 @@ This is leetcode practice
 
 - Solution445: [链表求和（正序）](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)
 - Solution485: [找出数组中最长的连续 1](https://leetcode-cn.com/problems/max-consecutive-ones/description/)
+
+## 600-700
+
+- Solution645: [找出重复的数和丢失的数](https://leetcode-cn.com/problems/set-mismatch/description/)
