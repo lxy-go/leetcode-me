@@ -46,7 +46,7 @@ public class Solution213 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 7, 9, 3, 1};
+        int[] arr = {200, 3, 140, 20, 10};
         int rob = rob(arr);
         System.out.println(rob);
     }
