@@ -18,6 +18,9 @@ This is leetcode practice
 - Solution213: [强盗在环形街区抢劫](https://leetcode-cn.com/problems/house-robber-ii/solution/)
 - Solution234: [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)
 
+## 301-400
+- Solution303: [数组区间和](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)
+
 ## 400-500
 
 - Solution445: [链表求和（正序）](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)
