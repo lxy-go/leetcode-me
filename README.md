@@ -20,7 +20,7 @@ This is leetcode practice
 
 ## 301-400
 - Solution303: [数组区间和](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)
-
+- Solution343: [整数拆分](https://leetcode-cn.com/problems/integer-break/description/)
 ## 400-500
 
 - Solution413: [数组中等差递增子区间的个数](https://leetcode-cn.com/problems/arithmetic-slices/description/)
