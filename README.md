@@ -7,6 +7,7 @@ This is leetcode practice
 - Solution24: [交换链表互相的值](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/)
 - Solution62: [矩阵的总路径数](https://leetcode-cn.com/problems/unique-paths/description/)
 - Solution64: [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/submissions/)
+- Solution69: [x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/)
 - Solution70: [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)
 - Solution83: [删除排序链表重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)
 ## 101-200
