@@ -31,3 +31,7 @@ This is leetcode practice
 ## 600-700
 
 - Solution645: [找出重复的数和丢失的数](https://leetcode-cn.com/problems/set-mismatch/description/)
+
+## 700-800
+
+- Solution744: [寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
