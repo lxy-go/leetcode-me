@@ -18,6 +18,8 @@ This is leetcode practice
 - Solution206: [链表反转](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - Solution213: [强盗在环形街区抢劫](https://leetcode-cn.com/problems/house-robber-ii/solution/)
 - Solution234: [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)
+- Solution278: [第一个错误版本](https://leetcode-cn.com/problems/first-bad-version/description/)
+- Solution287: [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/description/)
 
 ## 301-400
 - Solution303: [数组区间和](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)

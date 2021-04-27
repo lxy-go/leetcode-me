@@ -1,13 +1,13 @@
 package com.leetcode.algorithms.solution300;
 
 /**
- * 278 寻找重复数
+ * 287 寻找重复数
  *
  * https://leetcode-cn.com/problems/find-the-duplicate-number/description/
  * @author lixiyan
  * @date 2021/4/21 5:48 PM
  */
-public class Slotion278 {
+public class Solution287 {
 
 
     public static int findDuplicate(int[] nums) {
