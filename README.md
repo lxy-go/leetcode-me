@@ -10,6 +10,7 @@ This is leetcode practice
 - Solution69: [x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/)
 - Solution70: [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)
 - Solution83: [删除排序链表重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)
+- Solution88: [归并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)
 ## 101-200
 - Solution104: [树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 - Solution153: [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
