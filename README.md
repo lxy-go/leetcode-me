@@ -37,6 +37,7 @@ This is leetcode practice
 ## 600-700
 
 - Solution645: [找出重复的数和丢失的数](https://leetcode-cn.com/problems/set-mismatch/description/)
+- Solution680: [回文字符串II](https://leetcode-cn.com/problems/valid-palindrome-ii/description)
 
 ## 700-800
 
