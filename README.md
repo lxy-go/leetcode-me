@@ -11,6 +11,7 @@ This is leetcode practice
 - Solution70: [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)
 - Solution83: [删除排序链表重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)
 - Solution88: [归并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)
+- Solution141: [判断链表是否存在环](https://leetcode-cn.com/problems/linked-list-cycle/description/)
 ## 101-200
 - Solution104: [树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 - Solution153: [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
