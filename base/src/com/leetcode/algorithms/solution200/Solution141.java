@@ -1,4 +1,4 @@
-package com.leetcode.algorithms.solution100;
+package com.leetcode.algorithms.solution200;
 
 /**
  * 判断链表是否存在环

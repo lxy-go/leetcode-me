@@ -2,6 +2,7 @@
 This is leetcode practice
 
 ## 0-100
+- Solution01: [两数之和](https://leetcode-cn.com/problems/two-sum/description/)
 - Solution19: [删除倒数第K个位置](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)
 - Solution21: [两个有序链表合并](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - Solution24: [交换链表互相的值](https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/)
