@@ -24,6 +24,7 @@ This is leetcode practice
 - Solution213: [强盗在环形街区抢劫](https://leetcode-cn.com/problems/house-robber-ii/solution/)
 - Solution215: [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)
 - Solution234: [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)
+- Solution242: [两个字符串包含的字符是否完全相同](https://leetcode-cn.com/problems/valid-anagram/description/)
 - Solution278: [第一个错误版本](https://leetcode-cn.com/problems/first-bad-version/description/)
 - Solution287: [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/description/)
 
