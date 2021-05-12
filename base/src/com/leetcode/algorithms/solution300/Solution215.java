@@ -10,7 +10,10 @@ import java.util.Arrays;
  * @date 2021/4/28 6:04 PM
  */
 public class Solution215 {
-    public static int findKthLargest(int[] nums, int k) {
+    /**
+     * 排序
+     */
+    private  static int findKthLargest(int[] nums, int k) {
         Arrays.sort(nums);
         if (k>0 && k <= nums.length){
             return nums[k - 1];
