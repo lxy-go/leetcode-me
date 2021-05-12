@@ -1,4 +1,4 @@
-package com.leetcode.algorithms.solution700;
+package com.leetcode.algorithms.solution800;
 
 /**
  * 寻找比目标字母大的最小字母

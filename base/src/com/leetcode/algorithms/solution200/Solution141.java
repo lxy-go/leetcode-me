@@ -10,6 +10,9 @@ package com.leetcode.algorithms.solution200;
  */
 public class Solution141 {
 
+    /**
+     * 链表，双指针
+     */
     public static  boolean hasCycle(ListNode head) {
         if(head == null || head.next == null){
             return false;

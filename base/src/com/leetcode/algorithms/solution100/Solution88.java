@@ -9,7 +9,10 @@ package com.leetcode.algorithms.solution100;
  */
 public class Solution88 {
 
-    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+    /**
+     * 双指针
+     */
+    private static void merge(int[] nums1, int m, int[] nums2, int n) {
         int index1 = m-1;
         int index2 = n-1;
         int indexMerge = n+m-1;

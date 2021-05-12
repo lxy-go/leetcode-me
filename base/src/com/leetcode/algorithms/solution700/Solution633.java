@@ -1,4 +1,4 @@
-package com.leetcode.algorithms.solution600;
+package com.leetcode.algorithms.solution700;
 
 /**
  * 平方数之和

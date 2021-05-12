@@ -1,4 +1,4 @@
-package com.leetcode.algorithms.solution600;
+package com.leetcode.algorithms.solution700;
 
 /**
  * 回文字符串
@@ -9,6 +9,9 @@ package com.leetcode.algorithms.solution600;
  */
 public class Solution680 {
 
+    /**
+     * 回文字符串
+     */
     public static boolean validPalindrome(String s) {
         for (int i = 0, j =s.length()-1; i<j;i++,j--) {
             if (s.charAt(i) != s.charAt(j)){
