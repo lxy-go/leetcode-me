@@ -41,6 +41,11 @@ This is leetcode practice(33)
 - Solution451: [按照字符出现次数对字符串排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/description/)
 - Solution485: [找出数组中最长的连续 1](https://leetcode-cn.com/problems/max-consecutive-ones/description/)
 
+## 500-600
+- Solution524: [最长子序列](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/)
+- Solution540: [有序数组的 Single Element](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/description/)
+
+
 ## 600-700
 
 - Solution633: [平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/description/)
