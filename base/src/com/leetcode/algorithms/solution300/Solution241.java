@@ -47,7 +47,7 @@ public class Solution241 {
     }
 
     public static void main(String[] args) {
-        String s = "2-1-1";
+        String s = "2-1+1";
         System.out.println(diffWaysToCompute(s));
     }
 }
