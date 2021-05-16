@@ -39,6 +39,7 @@ This is leetcode practice(33)
 - Solution345: [反转字符串中的元音字符](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/description/)
 ## 400-500
 
+- Solution405: [数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/)
 - Solution413: [数组中等差递增子区间的个数](https://leetcode-cn.com/problems/arithmetic-slices/description/)
 - Solution445: [链表求和（正序）](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)
 - Solution451: [按照字符出现次数对字符串排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/description/)
