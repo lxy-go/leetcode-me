@@ -16,7 +16,7 @@ public class Solution168 {
             return "";
         }
         columnNumber--;
-        return convertToTitle(columnNumber/26)+ (char)(columnNumber+'A');
+        return convertToTitle(columnNumber/26)+ (char)(columnNumber%26+'A');
 
     }
 
