@@ -45,6 +45,7 @@ This is leetcode practice(33)
 - Solution485: [找出数组中最长的连续 1](https://leetcode-cn.com/problems/max-consecutive-ones/description/)
 
 ## 500-600
+- Solution504: [10进制转7进制](https://leetcode-cn.com/problems/base-7/description/)
 - Solution524: [最长子序列](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/)
 - Solution540: [有序数组的 Single Element](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/description/)
 
