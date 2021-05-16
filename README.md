@@ -20,6 +20,7 @@ This is leetcode practice(33)
 - Solution153: [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - Solution160: [链表交点](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
 - Solution167: [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+- Solution168: [Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/solution/)
 - Solution198: [强盗抢劫](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
 
 ## 201-300
