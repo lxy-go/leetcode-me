@@ -21,8 +21,8 @@ public class Solution67 {
             int anum = i >=0?a.charAt(i)-'0':0;
             int bnum = j >=0?b.charAt(j)-'0':0;
 
-            int sum = (anum+bnum)%2+carray;
-            carray = (anum+bnum)/2;
+            int sum = (anum+bnum+carray)%2;
+            carray = (anum+bnum+carray)/2;
             sb.append(sum);
 
         }
@@ -31,8 +31,8 @@ public class Solution67 {
     }
 
     public static void main(String[] args) {
-        String a = "1010";
-        String b = "1011";
+        String a = "11";
+        String b = "1";
         System.out.println(addBinary(a, b));
 
 
