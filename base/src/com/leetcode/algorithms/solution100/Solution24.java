@@ -11,6 +11,9 @@ import com.leetcode.base.Node;
  */
 public class Solution24 {
 
+    /**
+     * 链表：交换
+     */
     private static Node swapPairs(Node head){
 
         Node pre = new Node(0);
