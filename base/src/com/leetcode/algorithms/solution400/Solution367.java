@@ -3,6 +3,9 @@ package com.leetcode.algorithms.solution400;
 /**
  * 平方数
  *
+ *  可以暴力递归
+ *  二分
+ *  牛顿
  * https://leetcode-cn.com/problems/valid-perfect-square/description/
  * @author lixiyan
  * @date 2021/5/18 2:52 PM
