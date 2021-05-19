@@ -25,6 +25,7 @@ public class Node {
     }
 
     public void print(){
+
         System.out.print(val);
         System.out.print("-->");
         if (this.next != null){

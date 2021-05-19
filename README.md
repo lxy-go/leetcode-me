@@ -68,4 +68,5 @@ This is leetcode practice(40)
 
 ## 700-800
 
+- Solution725: [分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/description/)
 - Solution744: [寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
