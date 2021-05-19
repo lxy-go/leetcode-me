@@ -47,8 +47,10 @@ public class Solution725 {
         l1.add(3);
         l1.add(4);
         l1.add(5);
+        l1.add(6);
+        l1.add(7);
 
-        Node[] nodes = splitListToParts(l1, 10);
+        Node[] nodes = splitListToParts(l1, 3);
         for (int i = 0; i < nodes.length; i++) {
             nodes[i].print();
 

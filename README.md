@@ -41,6 +41,7 @@ This is leetcode practice(40)
 ## 301-400
 - Solution303: [数组区间和](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)
 - Solution326: [3的n次方](https://leetcode-cn.com/problems/power-of-three/description/)
+- Solution328: [链表元素按奇偶聚集](https://leetcode-cn.com/problems/odd-even-linked-list/description/)
 - Solution343: [整数拆分](https://leetcode-cn.com/problems/integer-break/description/)
 - Solution345: [反转字符串中的元音字符](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/description/)
 - Solution367: [平方数](https://leetcode-cn.com/problems/valid-perfect-square/description/)
