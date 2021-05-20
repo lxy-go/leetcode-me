@@ -74,4 +74,5 @@ This is leetcode practice(40)
 ## 700-800
 
 - Solution725: [分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/description/)
+- Solution739: [数组中元素与下一个比它大的元素之间的距离](https://leetcode-cn.com/problems/daily-temperatures/description/)
 - Solution744: [寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
