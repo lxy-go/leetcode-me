@@ -11,7 +11,7 @@ package com.leetcode.algorithms.solution300;
 public class Solution242 {
 
     /**
-     * 数组
+     * 数组，字符串
      */
     public static boolean isAnagram(String s, String t) {
         int[] a = new int[26];
