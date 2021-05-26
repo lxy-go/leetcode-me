@@ -31,6 +31,7 @@ This is leetcode practice(40)
 
 ## 201-300
 - Solution204: [生成素数序列](https://leetcode-cn.com/problems/count-primes/description/)
+- Solution205: [字符串同构](https://leetcode-cn.com/problems/isomorphic-strings/description/)
 - Solution206: [链表反转](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - Solution213: [强盗在环形街区抢劫](https://leetcode-cn.com/problems/house-robber-ii/solution/)
 - Solution215: [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)
