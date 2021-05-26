@@ -19,6 +19,7 @@ This is leetcode practice(40)
 - Solution141: [判断链表是否存在环](https://leetcode-cn.com/problems/linked-list-cycle/description/)
 ## 101-200
 - Solution104: [树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- Solution128: [最长序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
 - Solution153: [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - Solution155: [最小值栈](https://leetcode-cn.com/problems/min-stack/description/)
 - Solution160: [链表交点](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
