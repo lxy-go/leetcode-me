@@ -74,6 +74,7 @@ This is leetcode practice(40)
 
 - Solution633: [平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/description/)
 - Solution645: [找出重复的数和丢失的数](https://leetcode-cn.com/problems/set-mismatch/description/)
+- Solution647: [回文子字符串个数](https://leetcode-cn.com/problems/palindromic-substrings/description/)
 - Solution680: [回文字符串II](https://leetcode-cn.com/problems/valid-palindrome-ii/description)
 
 ## 700-800
