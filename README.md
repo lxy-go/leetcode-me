@@ -3,6 +3,7 @@ This is leetcode practice(40)
 
 ## 0-100
 - Solution01: [两数之和](https://leetcode-cn.com/problems/two-sum/description/)
+- Solution09: [判断一个整数是否是回文数](https://leetcode-cn.com/problems/palindrome-number/description/)
 - Solution19: [删除倒数第K个位置](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)
 - Solution20: [用栈实现括号匹配](https://leetcode-cn.com/problems/valid-parentheses/description/)
 - Solution21: [两个有序链表合并](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
