@@ -10,15 +10,9 @@ import com.leetcode.geek.array.MyArray;
  */
 public class Main {
     public static void main(String[] args) {
-        MyArray<Integer> arr = new MyArray<>();
-        // 增加数据
-        for (int i = 0; i < 9; i++) {
-            arr.add(i);
-        }
-
-        for (int i = 0; i < 9; i++) {
-            System.out.println(arr.get(i));
-        }
+       StringBuilder sb = new StringBuilder("12345");
+        sb.deleteCharAt(sb.length()-1);
+        System.out.println(sb.toString());
 
     }
 }
