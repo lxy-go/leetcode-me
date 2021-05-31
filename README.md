@@ -61,6 +61,7 @@ This is leetcode practice(40)
 - Solution415: [字符串相加](https://leetcode-cn.com/problems/add-strings/description/)
 - Solution445: [链表求和（正序）](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)
 - Solution451: [按照字符出现次数对字符串排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/description/)
+- Solution461: [统计两个数的二进制表示有多少位不同](https://leetcode-cn.com/problems/hamming-distance/)
 - Solution462: [改变数组元素使所有的数组元素都相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/)
 - Solution485: [找出数组中最长的连续 1](https://leetcode-cn.com/problems/max-consecutive-ones/description/)
 
