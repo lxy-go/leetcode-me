@@ -16,14 +16,17 @@ public class Solution01 {
      * Hash法
      */
     public static int[] twoSum(int[] nums, int target) {
-        if (nums == null || nums.length <2){return null;}
+        if (nums == null || nums.length <2){
+            return null;
+        }
+
         Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int num = target-nums[i];
-            if (map.containsKey(num)){
-                return new int[]{i,map.get(num)};
+        for (int num : nums) {
+            int i = target - num;
+            if (map.containsKey(i) && map.get(i) == num){
+                return new int[]{i,num};
             }else {
-                map.put(nums[i],i);
+                map.put(num,i);
             }
         }
         return null;
