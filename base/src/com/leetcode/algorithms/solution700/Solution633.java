@@ -14,7 +14,7 @@ public class Solution633 {
     public static boolean judgeSquareSum(int c) {
        int i = 1;
        int j = (int)Math.sqrt(c);
-       while(i < j){
+       while(i <= j){
            int sum = i*i+j*j;
            if (sum < c){
                i++;
