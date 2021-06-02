@@ -12,7 +12,7 @@ public class Solution633 {
      * 双指针
      */
     public static boolean judgeSquareSum(int c) {
-       int i = 1;
+       int i = 0;
        int j = (int)Math.sqrt(c);
        while(i <= j){
            int sum = i*i+j*j;
@@ -30,6 +30,6 @@ public class Solution633 {
     }
 
     public static void main(String[] args) {
-        System.out.println(judgeSquareSum(6));
+        System.out.println(judgeSquareSum(5));
     }
 }
