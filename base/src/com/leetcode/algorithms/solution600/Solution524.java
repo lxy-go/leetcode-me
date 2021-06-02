@@ -16,29 +16,27 @@ public class Solution524 {
     /**
      * 双指针，判断是否为子序列
      */
-    public static String findLongestWord(String s, List<String> d) {
-        // 最长字符串
-        String lw = "";
+    private static String findLongestWord(String s, List<String> d) {
+       String longestWord = "";
 
         for (String target : d) {
-            int i = lw.length();
-            int j = target.length();
-            if (i > j || (i == j && lw.compareTo(target) < 0)) {
+            int l1 = longestWord.length();
+            int l2 = target.length();
+            // 如果公共字符比target大，这个target排除
+            if (l1 > l2 || (l1 == l2 && longestWord.compareTo(target) < 0)){
                 continue;
             }
-            if (isSubStr(s, target)) {
-                lw = target;
+            if(isSubStr(target,longestWord)){
+                longestWord = target;
             }
         }
-        return lw;
+        return longestWord;
     }
 
-    /**
-     * 是否为子字符串
-     */
-    private static boolean isSubStr(String s, String target) {
-        int i = 0, j = 0;
-        while (i < s.length() && j < target.length()) {
+    private static boolean isSubStr(String s,String target){
+        int i =0;
+        int j = 0;
+        while(i < s.length() && j< target.length()){
             if (s.charAt(i) == target.charAt(j)){
                 j++;
             }
@@ -46,6 +44,12 @@ public class Solution524 {
         }
         return j == target.length();
     }
+
+
+
+
+
+
 
     public static void main(String[] args) {
         String s = "abpcplea";
