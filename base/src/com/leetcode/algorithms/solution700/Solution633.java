@@ -12,22 +12,24 @@ public class Solution633 {
      * 双指针
      */
     public static boolean judgeSquareSum(int c) {
-        int i =0 ;
-        int j =(int)Math.sqrt(c);
-        while(i < j){
-          long sum = i*i + j*j;
-          if(sum == c){
-              return true;
-          }else if(sum > c){
-              j--;
-          }else {
-              i++;
-          }
-        }
-        return false;
+       int i = 1;
+       int j = (int)Math.sqrt(c);
+       while(i < j){
+           int sum = i*i+j*j;
+           if (sum < c){
+               i++;
+           }else if(sum == c){
+               return true;
+           }else {
+               j--;
+           }
+       }
+       return false;
+
+
     }
 
     public static void main(String[] args) {
-        System.out.println(judgeSquareSum(5));
+        System.out.println(judgeSquareSum(6));
     }
 }
