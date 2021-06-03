@@ -6,7 +6,7 @@ package com.leetcode.geek.sortalgo;
  * @author lixiyan
  * @date 2021/5/24 5:24 PM
  */
-public class QuickSort {
+public class QuickSortK {
 
     private static void quickSort(int[] nums,int n){
         quickSortC(nums,0,n-1);
@@ -18,6 +18,7 @@ public class QuickSort {
         }
 
         int q = partition(nums,p,r);
+//        if (q==3){return;}
         quickSortC(nums,p,q-1);
         quickSortC(nums,q+1,r);
     }
@@ -26,7 +27,7 @@ public class QuickSort {
         int i = p;
         int pivot = nums[r];
         for (int j = p; j < r; j++) {
-            if (nums[j] > pivot){
+            if (nums[j] < pivot){
                 swap(nums,i,j);
                 i++;
             }
