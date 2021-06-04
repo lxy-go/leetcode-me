@@ -18,32 +18,33 @@ public class Solution451 {
      * 桶排序
      */
     public static String frequencySort(String s) {
-        Map<Character,Integer> frequenceMap = new HashMap();
+        Map<Character,Integer> frequenceNum = new HashMap<>();
 
-        for(char c:s.toCharArray()){
-            frequenceMap.put(c,frequenceMap.getOrDefault(c,0)+1);
+        for (char c : s.toCharArray()) {
+            frequenceNum.put(c,frequenceNum.getOrDefault(c,0)+1);
         }
         List<Character>[] buckets = new ArrayList[s.length()+1];
-        for (Character character : frequenceMap.keySet()) {
-            Integer value = frequenceMap.get(character);
-            if (buckets[value] == null){
-                buckets[value] = new ArrayList<>();
+        for (Character c : frequenceNum.keySet()) {
+            Integer frequence = frequenceNum.get(c);
+            if (buckets[frequence] == null){
+                buckets[frequence] = new ArrayList<>();
             }
-            buckets[value].add(character);
+            buckets[frequence].add(c);
         }
         StringBuilder sb = new StringBuilder();
-        for (int i = buckets.length-1; i >=0; i--) {
+        for (int i = buckets.length-1; i>=0; i--) {
             if (buckets[i] == null){
                 continue;
             }
-            for(char c:buckets[i]){
-                // 打印几次，因为i 是频率，存桶的时候 存的频率
+            for (Character c : buckets[i]) {
                 for (int j = 0; j < i; j++) {
                     sb.append(c);
                 }
             }
         }
         return sb.toString();
+
+
     }
 
     public static void main(String[] args) {
