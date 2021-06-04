@@ -19,27 +19,27 @@ public class Solution347 {
      * 桶排序
      */
     private static int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> frequencyForNum = new HashMap();
+        Map<Integer, Integer> frequencyForNum = new HashMap<>();
         for (int num : nums) {
-            frequencyForNum.put(num, frequencyForNum.getOrDefault(num, 0) + 1);
+            frequencyForNum.put(num,frequencyForNum.getOrDefault(num,0)+1);
         }
-        // 同的 标识 是出现频率 frequency，桶里装的 数bu
-        List<Integer>[] buckets = new ArrayList[nums.length + 1];
+        List<Integer>[] buckets = new ArrayList[nums.length+1];
         for (Integer key : frequencyForNum.keySet()) {
             Integer frequency = frequencyForNum.get(key);
-            if (buckets[frequency] == null) {
+            if (buckets[frequency] == null){
                 buckets[frequency] = new ArrayList<>();
             }
             buckets[frequency].add(key);
         }
         List<Integer> topK = new ArrayList<>();
-        for (int i = buckets.length - 1; i >= 0 && topK.size()<k ;i--){
-            if (buckets[i] == null) {
+
+        for (int i = buckets.length-1; i >=0&& topK.size()<k; i--) {
+            if (buckets[i] == null){
                 continue;
             }
             if (buckets[i].size() <= (k-topK.size())){
                 topK.addAll(buckets[i]);
-            }else{
+            }else {
                 topK.addAll(buckets[i].subList(0,k-topK.size()));
             }
         }
@@ -48,6 +48,8 @@ public class Solution347 {
             res[i] = topK.get(i);
         }
         return res;
+
+//        return ;
     }
 
     public static void main(String[] args) {
