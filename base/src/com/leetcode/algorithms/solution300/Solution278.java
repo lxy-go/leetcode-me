@@ -12,17 +12,17 @@ public class Solution278 {
      * 二分查找 ,上下界特殊处理
      */
     public static int firstBadVersion(int n) {
-        int l =1,h = n;
+        int  l = 0;
+        int h = n;
         while(l < h){
-            int mid = l + (h-l)/2;
-            if (isBadVersion(mid)){
+            int mid = l+(h-l)/2;
+            if(isBadVersion(mid)){
                 h = mid;
-            }else {
+            }else{
                 l = mid+1;
             }
         }
-        return h;
-
+        return l;
     }
 
     public static boolean isBadVersion(int n){
