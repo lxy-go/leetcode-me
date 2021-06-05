@@ -17,24 +17,15 @@ public class Solution540 {
         int l = 0, h = nums.length - 1;
 
         while (l < h) {
-            int mid = l + (h - l) / 2;
-            // 判断两侧的奇偶
-            boolean haveEven = (h - mid) % 2 == 0;
-           if (nums[mid+1] == nums[mid]){
-               if (haveEven){
-                  l = mid+2;
-               }else {
-                   h = mid-1;
-               }
-           }else if(nums[mid-1] == nums[mid]){
-               if (haveEven){
-                   h = mid-2;
-               }else {
-                   l = mid+1;
-               }
-           }else {
-               return nums[mid];
-           }
+            int mid = l+(h-l)/2;
+            if (mid %2==1){
+                mid--;
+            }
+            if (nums[mid] == nums[mid+1]){
+                l = mid+2;
+            }else {
+                h = mid;
+            }
         }
         return nums[l];
 
@@ -43,7 +34,7 @@ public class Solution540 {
     public static void main(String[] args) {
 //        [3,3,7,7,10,11,11]
 //        [1,1,2,3,3]
-        int[] a = new int[]{1,1,2,3,3};
+        int[] a = new int[]{1, 1, 2, 2, 3, 4, 4, 8, 8};
         System.out.println(singleNonDuplicate(a));
     }
 
