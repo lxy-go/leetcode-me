@@ -12,22 +12,26 @@ public class Solution75 {
 
     /**
      * 排序
+     * [0,zero)  zero = 0
+     * [zero,i)  i=0
+     * [one,two) two = length
      */
     private static void sortColors(int[] nums) {
-        int zero = -1;
-        int one = 0;
-        int two = nums.length;
+        int zero = 0,i=0,two=nums.length;
+        while(i<two){
+            if (nums[i] == 0){
+                two--;
+                swap(nums,i,two);
 
-        while(one < two){
-            if(nums[one] == 0){
-                swap(nums,++zero,one++);
-            }else if(nums[one] ==2){
-                swap(nums,--two,one);
-            }else{
-                one++;
+            }else if(nums[i] == 1){
+                i++;
+            }else {
+
+                swap(nums,zero,i);
+                zero++;
+                i++;
             }
         }
-
     }
 
     private static void swap(int[] nums,int i,int j){
