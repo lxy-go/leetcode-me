@@ -14,15 +14,14 @@ import java.util.HashMap;
 public class Solution160 {
 
     private static Node getIntersectionNode(Node headA,Node headB) {
-        if (headA == null || headB == null) {
+        if(headA == null || headB == null){
             return null;
         }
-
-        Node l1 = headA, l2 = headB;
-
-        while (l1 != l2) {
-            l1 = (l1 == null) ? headB : l1.next;
-            l2 = (l2 == null) ? headA : l2.next;
+        Node l1 = headA;
+        Node l2 = headB;
+        while(l1 != l2){
+            l1 = l1!=null?l1.next:headB;
+            l2 = l2 != null?l2.next:headA;
         }
         return l1;
     }
