@@ -11,15 +11,20 @@ import com.leetcode.base.Node;
  */
 public class Solution206 {
 
+    /**
+     * 链表,反向移位
+     */
     private static Node reverseList(Node head){
-        if (head == null){return null;}
-        Node curr = head;
+        if (head == null){
+            return null;
+        }
+        Node current = head;
         Node pre = null;
-        while(curr != null){
-            Node next = curr.next;
-            curr.next = pre;
-            pre = curr;
-            curr = next;
+        while(current != null){
+            Node next= current.next;
+            current.next = pre;
+            pre = current;
+            current = next;
         }
         return pre;
     }
