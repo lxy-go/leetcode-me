@@ -11,12 +11,12 @@ import java.util.Map;
  * @author lixiyan
  * @date 2021/6/8 12:34 PM
  */
-public class LRUCache {
+public class Solution003 {
     // 容量
     private int capacity;
     private LinkedList<Integer> list;
     private Map<Integer,Integer> cache;
-    public LRUCache(int capacity){
+    public Solution003(int capacity){
         this.capacity = capacity;
         this.cache =  new HashMap<>();
         this.list = new LinkedList<>();

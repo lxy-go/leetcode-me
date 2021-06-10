@@ -6,7 +6,7 @@ package com.leetcode.interview.bytedancer;
  * @author lixiyan
  * @date 2021/6/9 7:20 PM
  */
-public class Solution14 {
+public class Solution014 {
 
     /**
      * 链表,反向移位
