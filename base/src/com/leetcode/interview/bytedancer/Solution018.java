@@ -13,8 +13,8 @@ public class Solution018 {
      */
     private static int find(int[] nums,int target){
         int l = 0;
-        int h = nums.length;
-        while(l<h){
+        int h = nums.length-1;
+        while(l<=h){
             int mid = l +(h-l)/2;
             if (nums[mid] == target){
                 return mid;
@@ -29,7 +29,7 @@ public class Solution018 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1,2,3,4,5,6};
-        int target = 7;
+        int target = 3;
         System.out.println(find(nums, target));
     }
 }
