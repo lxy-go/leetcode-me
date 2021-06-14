@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 /**
- *
+ * 合并K个N大小的数组
  *
  * @author lixiyan
  * @date 2021/6/11 12:01 PM
