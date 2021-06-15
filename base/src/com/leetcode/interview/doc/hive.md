@@ -93,3 +93,8 @@ order by t1.date,t2.gap
 
 6. select a, count(distinct b) num from A group by a ;  解析成MR操作
 
+Map:
+
+<key,value> -- 
+[a,b],1
+
