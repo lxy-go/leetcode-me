@@ -50,7 +50,7 @@ public class Solution007 {
     }
 
     public static void main(String[] args) {
-        randBonus(10,10);
+        randBonus(100,10);
     }
 
 }
