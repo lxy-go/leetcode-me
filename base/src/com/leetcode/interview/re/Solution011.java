@@ -11,7 +11,7 @@ import java.util.Queue;
  * @author lixiyan
  * @date 2021/6/16 1:05 PM
  */
-public class Sulution011 {
+public class Solution011 {
 
     public static int maxDepth(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
