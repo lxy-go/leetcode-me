@@ -21,6 +21,7 @@ This is leetcode practice(40)
 ## 101-200
 - Solution103: [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
 - Solution104: [树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- Solution110: [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - Solution128: [最长序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
 - Solution145: [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 - Solution153: [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
