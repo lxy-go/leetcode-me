@@ -3,6 +3,8 @@ This is leetcode practice(40)
 
 ## 0-100
 - Solution01: [两数之和](https://leetcode-cn.com/problems/two-sum/description/)
+- Solution02: [链表相加](https://leetcode-cn.com/problems/add-two-numbers/)
+- Solution03: [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - Solution09: [判断一个整数是否是回文数](https://leetcode-cn.com/problems/palindrome-number/description/)
 - Solution19: [删除倒数第K个位置](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)
 - Solution20: [用栈实现括号匹配](https://leetcode-cn.com/problems/valid-parentheses/description/)
