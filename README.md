@@ -76,6 +76,7 @@ This is leetcode practice(40)
 - Solution504: [10进制转7进制](https://leetcode-cn.com/problems/base-7/description/)
 - Solution524: [最长子序列](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/)
 - Solution540: [有序数组的 Single Element](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/description/)
+- Solution567: [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
 - Solution594: [最长和谐序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/)
 
 ## 600-700
