@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e62711b-81fe-4354-8055-6dbd1d0cf4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution600/Solution567.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution200/Solution151.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uNvT10eENYfuC7gvOclwVdj3SM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,13 +37,26 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Application.Solution567">
+  <component name="RunManager" selected="Application.Solution151">
     <configuration name="Solution14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.algorithms.solution100.Solution14" />
       <module name="leetcode-me" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.algorithms.solution100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.algorithms.solution200.Solution151" />
+      <module name="leetcode-me" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.algorithms.solution200.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution151" />
         <item itemvalue="Application.Solution567" />
         <item itemvalue="Application.Solution14" />
       </list>
@@ -89,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624518872222</updated>
       <workItem from="1624518893945" duration="78000" />
-      <workItem from="1624518989933" duration="2375000" />
+      <workItem from="1624518989933" duration="3574000" />
     </task>
     <servers />
   </component>
