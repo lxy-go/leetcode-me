@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e62711b-81fe-4354-8055-6dbd1d0cf4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution100/Solution43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution100/Solution71.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Application.Solution43">
+  <component name="RunManager" selected="Application.Solution71">
     <configuration name="Solution14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.algorithms.solution100.Solution14" />
       <module name="leetcode-me" />
@@ -91,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.algorithms.solution100.Solution71" />
+      <module name="leetcode-me" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.algorithms.solution100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -104,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution71" />
         <item itemvalue="Application.Solution43" />
         <item itemvalue="Application.Solution151" />
         <item itemvalue="Application.Solution567" />
@@ -120,11 +133,22 @@
       <option name="presentableId" value="Default" />
       <updated>1624518872222</updated>
       <workItem from="1624518893945" duration="78000" />
-      <workItem from="1624518989933" duration="6997000" />
+      <workItem from="1624518989933" duration="9524000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution100/Solution43.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
