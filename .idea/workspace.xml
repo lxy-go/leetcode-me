@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e62711b-81fe-4354-8055-6dbd1d0cf4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution100/Solution71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/com/leetcode/algorithms/solution100/Solution15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +37,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Application.Solution71">
-    <configuration name="Solution14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.algorithms.solution100.Solution14" />
+  <component name="RunManager" selected="Application.Solution15">
+    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.algorithms.solution100.Solution15" />
       <module name="leetcode-me" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution15" />
         <item itemvalue="Application.Solution71" />
         <item itemvalue="Application.Solution43" />
         <item itemvalue="Application.Solution151" />
         <item itemvalue="Application.Solution567" />
-        <item itemvalue="Application.Solution14" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624518872222</updated>
       <workItem from="1624518893945" duration="78000" />
-      <workItem from="1624518989933" duration="9524000" />
+      <workItem from="1624518989933" duration="12028000" />
     </task>
     <servers />
   </component>
