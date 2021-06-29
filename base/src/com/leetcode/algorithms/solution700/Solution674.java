@@ -1,5 +1,8 @@
 package com.leetcode.algorithms.solution700;
-
+/**
+ * 最长连续递增序列
+ * https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/
+ */
 public class Solution674 {
     /**
      * 数组
