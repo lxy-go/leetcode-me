@@ -18,13 +18,13 @@ public class Solution206 {
         if (head == null){
             return null;
         }
-        Node current = head;
+        Node cur = head;
         Node pre = null;
-        while(current != null){
-            Node next= current.next;
-            current.next = pre;
-            pre = current;
-            current = next;
+        while(cur != null){
+            Node next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
         }
         return pre;
     }
