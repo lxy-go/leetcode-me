@@ -12,16 +12,17 @@ public class Solution167 {
      * 双指针
      */
     private static int[] twoSum(int[] numbers, int target) {
-        if (numbers == null){
+        if (numbers == null || numbers.length ==0){
             return null;
         }
-        int i =0,j=numbers.length-1;
-        while(i < j){
-            int sum = numbers[i]+numbers[j];
+        int i = 0;
+        int h = numbers.length-1;
+        while(i < h){
+            int sum = numbers[i]+numbers[h];
             if (sum == target){
-                return new int[]{i,j};
+                return new int[]{i,h};
             }else if(sum > target){
-                j--;
+                h--;
             }else {
                 i++;
             }
