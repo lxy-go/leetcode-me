@@ -2,6 +2,7 @@ package com.leetcode.algorithms.solution400;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 反转字符串中的元音字符
@@ -13,18 +14,21 @@ import java.util.HashSet;
  */
 public class Solution345 {
 
-    private final static HashSet<Character> vowel = new HashSet<>(
-            Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
+    private static Set<Character> vowel = new HashSet<>(
+            Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
+            )
     );
 
     private static String reverseVowels(String s) {
-        if (s == null){return null;}
+       if (s == null){
+           return null;
+       }
        int i =0;
        int j = s.length()-1;
        char[] result = new char[s.length()];
-       while(i <= j){
-           char ci = s.charAt(i);
-           char cj = s.charAt(j);
+        while (i<=j){
+           Character ci = s.charAt(i);
+           Character cj = s.charAt(j);
            if (!vowel.contains(ci)){
                result[i++] = ci;
            }else if(!vowel.contains(cj)){
