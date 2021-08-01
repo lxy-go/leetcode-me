@@ -11,21 +11,21 @@ public class Solution633 {
     /**
      * 双指针
      */
-    public static boolean judgeSquareSum(int c) {
-       int i = 0;
-       int j = (int)Math.sqrt(c);
-       while(i <= j){
-           int sum = i*i+j*j;
-           if (sum < c){
-               i++;
-           }else if(sum == c){
-               return true;
-           }else {
-               j--;
-           }
-       }
-       return false;
+    public static boolean judgeSquareSum(int target) {
 
+        int i =0;
+        int j = (int)Math.sqrt(target);
+        while (i <= j){
+            int powerSum = i*i + j*j;
+            if (powerSum == target){
+                return true;
+            }else if(powerSum > target){
+                j--;
+            }else {
+                i++;
+            }
+        }
+        return false;
 
     }
 
